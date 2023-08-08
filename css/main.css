@@ -47,6 +47,8 @@ body {
 }
 
 nav {
+	/* position: fixed;
+	top: 0; */
 	height: 60px;
 	line-height: 60px;
 	background-color: #ddd;
@@ -103,6 +105,11 @@ main {
 
 .product h3 {
 	text-transform: uppercase;
+	transition: transform 0.3s;
+}
+
+.product:hover h3 {
+	transform: scale(1.5);
 }
 
 .first-product {
